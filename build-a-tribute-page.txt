@@ -1,0 +1,79 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <main id="main">
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles.css">
+      <title id="title">Tim McGraw</title>
+    </head>
+    <body>
+      <header>
+        <nav id="nav-bar">
+          <a href="#bio">Bio</a>
+          <a href="#disco">Discography</a>
+        </nav>
+      </header>
+      <h1>Tim McGraw</h1>
+      <div id="img-div">
+        <img id="image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.NFcPFXlJ1XWo6MgnVbjs_wHaH-%26pid%3DApi&f=1&ipt=4933f375571c5e7b0251a3087ad4877c2015cecc1caa677d80d1a75a0771a1a0&ipo=images"/>
+        <div id="img-caption"
+          <p>Country singer Tim McGraw</p>
+        </div>
+        </div>
+      <div id="tribute-info">
+        <h3 class="subtitle" id="bio">Bio</h3>
+        <p>Born in 1967 in Louisiana, Tim McGraw has been singing in the country scene since his debut album <em>Tim McGraw</em> was released in 1993. He is married to fellow country super star Faith Hill, and they have three daughters together.</p> 
+        <h3 class="subtitle"  id="disco">Discography</h3>
+        <ul id="disco-list">
+          <li><em>1993</em> - Tim McGraw</li>
+          <li><em>1994</em> - Not a Moment Too Soon</li>
+          <li><em>1995</em> - All I Want</li>
+          <li><em>1997</em> - Everywhere</li>
+          <li><em>1999</em> - A Place in the Sun</li>
+          <li><em>2001</em> - Set This Circus Down</li>
+          <li><em>2002</em> - Tim McGraw and the Dancehall Doctors</li>
+          <li><em>2004</em> - Live Like You Were Dying</li>
+          <li><em>2007</em> - Let It Go</li>
+          <li><em>2009</em> - Southern Voice</li>
+          <li><em>2012</em> - Emotional Traffic</li>
+          <li><em>2013</em> - Two Lanes of Freedom</li>
+          <li><em>2014</em> - Sundown Heaven Town</li>
+          <li><em>2015</em> - Damn Country Music</li>
+          <li><em>2017</em> - The Rest of Our Life</li>
+          <li><em>2020</em> - Here On Earth</li>
+          <li><em>2023</em> - Standing Room Only</li>
+        </ul>
+      </div>
+      <a id="tribute-link" target="_blank" href="https://open.spotify.com/artist/6roFdX1y5BYSbp60OTJWMd">Listen to Tim McGraw on Spotify</a>
+  </body>
+ </main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+h1, #img-caption {
+  text-align: center;
+}
+
+#nav-bar {
+  text-align: right;
+  text-decoration: none;
+}
+
+.subtitle {
+  background-color: tan;
+}
+
+** end of undefined **
+
